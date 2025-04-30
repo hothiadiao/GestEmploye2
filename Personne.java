@@ -14,5 +14,5 @@ public abstract class Personne {
     public abstract void jouerRole(); //Methode abstract
 
 
-
+    public abstract double calculerPrime();
 }

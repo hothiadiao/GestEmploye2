@@ -1,9 +1,11 @@
-public class Directeur extends Employe{
+public class Directeur extends Personne{
     private  int nbreEmploye;
     private double budget;
 
+    private double salaire;
+
     public Directeur(String prenom, String nom,double salaire, int nbreEmploye,double budget) {
-        super(prenom, nom,salaire);
+        super(prenom, nom);
         this.nbreEmploye = nbreEmploye;
         this.budget = budget;
     }

@@ -10,14 +10,18 @@ public class Main {
         Entreprise monEntreprise = new Entreprise();
         monEntreprise.ajouterEmploye(employe1);
         monEntreprise.ajouterEmploye(employe2);
-        monEntreprise.ajouterEmploye(directeur1);
+
 
         monEntreprise.afficherTousLesEmployes();
+        directeur1.afficherInfos();
+        directeur1.jouerRole();
+        System.out.println("Prime : " + directeur1.calculerPrime() + " FCFA");
 
 
-       congeD.afficherConge();
 
-        congeE.afficherConge();
+        congeD.afficherConge();
+
+       /* congeE.afficherConge();*/
 
 
     }
