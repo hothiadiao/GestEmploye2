@@ -10,14 +10,14 @@ public class Entreprise {
 
     public void ajouterEmploye(Employe e) {
         employes.add(e);
-        System.out.println("Employé ajouté : " + e.nom + " " + e.prenom);
+        System.out.println("Employe ajoute : " + e.prenom + " " + e.nom);
     }
 
     public void afficherTousLesEmployes() {
-        System.out.println("\nListe des employés :");
+        System.out.println("\nListe des employes :");
         for (Employe e : employes) {
             e.afficherInfos();
-            e.jouerRole();;
+            e.jouerRole();
             System.out.println("Prime : " + e.calculerPrime() + " FCFA\n");
         }
     }

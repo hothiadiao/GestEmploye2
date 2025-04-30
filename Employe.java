@@ -1,6 +1,6 @@
-public class Employe extends Personne implements Prime {
+public class Employe extends Personne implements  Prime{
+    protected double salaire;
 
-protected double salaire;
     public Employe(String prenom, String nom, double salaire) {
         super(nom,prenom);
         this.salaire = salaire;
@@ -27,7 +27,7 @@ protected double salaire;
     */
     @Override
     public void jouerRole(){
-        System.out.println("Je suis un employé");
+        System.out.println("Je suis un employe");
     }
 
 
@@ -55,4 +55,6 @@ protected double salaire;
     public double calculerPrime() {
         return salaire*0.05;
     }
+
+
 }

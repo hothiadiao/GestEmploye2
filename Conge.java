@@ -44,22 +44,7 @@ public class Conge {
                 '}';
     }
     public void afficherConge() {
-        System.out.println("Congé du " + dateDebut + " au " + dateFin +","+ etat);
+        System.out.println("Conge du " + dateDebut + " au " + dateFin +","+ etat);
     }
 
-
-    /*
-    private LocalDate dateDebut;
-    private LocalDate dateFin;
-
-    public Conge(LocalDate dateDebut, LocalDate dateFin) {
-        this.dateDebut = dateDebut;
-        this.dateFin = dateFin;
-    }
-
-    public void afficherConge() {
-        System.out.println("Congé du " + dateDebut + " au " + dateFin);
-    }
-
-     */
 }

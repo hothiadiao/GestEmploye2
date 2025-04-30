@@ -8,10 +8,11 @@ public abstract class Personne {
     }
 
     public void afficherInfos() {
-        System.out.println("Nom : " + nom + " " + prenom);
+        System.out.println("Prenom : " + prenom + " "+ "Nom:" + nom);
     }
 
     public abstract void jouerRole(); //Methode abstract
+
 
 
 }
